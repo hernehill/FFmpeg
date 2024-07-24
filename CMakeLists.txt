@@ -6,6 +6,8 @@ include(ExternalProject)
 set(pck_name ffmpeg)
 set(make_args -j$ENV{REZ_BUILD_THREAD_COUNT})
 
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules")
+
 if(${REZ_BUILD_INSTALL})
     set(install_cmd make install ${make_args})
 else()
