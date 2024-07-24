@@ -41,3 +41,8 @@
 /src
 /mapfile
 /tools/python/__pycache__/
+
+# HH
+_rez_build
+.vscode
+.idea
