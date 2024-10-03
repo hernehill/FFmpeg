@@ -14,6 +14,8 @@ else()
     set(install_cmd "")
 endif()
 
+# ffplay needs SDL2-devel libs in the system
+
 ExternalProject_add(
     ${pck_name}
     SOURCE_DIR ${CMAKE_SOURCE_DIR}
