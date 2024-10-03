@@ -27,6 +27,7 @@ ExternalProject_add(
         --enable-version3
         --enable-nonfree
         --enable-shared
+        --enable-ffplay
         --enable-libx264
         --enable-decoder=mp3
         --enable-libfontconfig
