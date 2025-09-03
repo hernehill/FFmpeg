@@ -1,6 +1,6 @@
 name = "ffmpeg"
 
-version = "7.1.1.hh.1.0.0"
+version = "7.1.1.hh.1.0.2"
 
 authors = [
     "FFmpeg",
