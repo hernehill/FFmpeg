@@ -29,6 +29,8 @@ ExternalProject_add(
         --enable-version3
         --enable-nonfree
         # --enable-shared  # always build static so not to conflict with Houdini's libs
+        --enable-static
+        --disable-shared
         --enable-ffplay
         --enable-libx264
         --enable-decoder=mp3
