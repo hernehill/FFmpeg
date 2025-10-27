@@ -32,7 +32,10 @@ def commands():
     env.FFMPEG_ROOT = "{root}"
     env.FFMPEG_LOCATION = "{root}"
 
-    env.PATH.append("{root}/bin")
+    # We want to make sure that REZ envs will use this ffmpeg
+    # and not any one installed in the system that may be available
+    # in /usr/bin.
+    env.PATH.prepend("{root}/bin")
     env.LD_LIBRARY_PATH.append("{root}/lib")
 
 
