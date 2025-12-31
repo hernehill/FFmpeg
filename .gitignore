@@ -47,3 +47,9 @@
 /libavfilter/vulkan/*.c
 /.*/
 !/.forgejo/
+
+
+# HH
+_rez_build
+.vscode
+.idea
